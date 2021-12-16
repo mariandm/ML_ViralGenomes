@@ -1,0 +1,16 @@
+Original data files:
+TARA_registies_water_column.tab	Environmental info
+GOV2_viral_populations_larger_than_5KB_or_circular.fasta	Genomes
+Normalized_Viral_Abundances_ALL_5kb.txt	Viral abundances
+
+Data collection files:
+GenomicFeatures.ipynb	Genomic feature extraction
+KmerFrequencyCalculation.ipynb	Kmer frequency
+StationLocation.ipynb	Sample station location extraction
+EnvFeatureExtraction.ipynb	Environmental feature extraction (mysql)
+
+Analysis:
+FeatureSelection.ipynb	Feature selection
+SOMs_and_cluster.ipynb	Genomic SOM and station clustering based on SOM abundance
+Baseline_model_regression-kriging.py	Baseline implmentation
+SOM_clusters_and_C_to_N_prediction.py	C to N regression using SOM clusters
